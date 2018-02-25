@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MEM</title>
+<link rel="stylesheet" type="text/css" href="mem.css">
+<script src="mem.js"></script>
+</head>
+<body background="bg1.jpg">
+<h2>MY EXPENSE MANAGER</h2>
+<hr>
+<form name="exp" action="#">
+	 <span>Enter Your Expense: Rs.</span>
+	   <input type="number" id="eye" min="0" max="10000">
+	   <select id="cat">
+	     <option value="gBar">Grocery</option>
+	     <option value="vBar">Vehicle</option>
+	     <option value="eBar">Entertainment</option>
+	     <option value="fBar">Food</option>
+	     <option value="mBar">Misc</option>
+       </select><span style="margin-left: 45%">Budget: Rs.50,000</span>
+	   <br><br>
+	   <input type="button" value="Submit" onClick="move()" style="margin-left: 33%">
+</form>
+<br>
+<span id="warn" style="margin-left: 5%"></span>
+<hr>
+
+<div style="margin-left: 50%; margin-right: 5%; text-align: left;">
+<fieldset>
+<legend>SPENDOMETER</legend>
+Food
+<div class="prog">
+	<div id="fBar"></div>
+</div>
+Vehicle
+<div class="prog">
+	<div id="vBar"></div>
+</div>
+Grocery
+<div class="prog">
+	<div id="gBar"></div><span></span>
+</div>
+Entertainment
+<div class="prog">
+	<div id="eBar"></div>
+</div>
+Miscellaneous
+<div class="prog">
+	<div id="mBar"></div>
+</div>	
+</fieldset>
+	</div>
+
+<hr>
+<fieldset style="width:40%;margin-left: 5%;">
+<legend align="right">ALL EXPENSES</legend>
+FOOD: Rs. <span id="ftot">0</span><br>
+VEHICLE: Rs. <span id="vtot">0</span><br>
+GROCERY: Rs. <span id="gtot">0</span><br>
+ENTERTAINMENT: Rs. <span id="etot">0</span><br>
+MISCELLANEOUS: Rs. <span id="mtot">0</span><br>
+<p align="right">TOTAL EXPENSES</p><span id="tc" style="margin-left: 84%;">0</span>
+</fieldset>
+</body>
+</html>

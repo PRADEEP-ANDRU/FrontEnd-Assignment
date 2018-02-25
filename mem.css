@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2{
+	
+	color: darkturquoise;
+	text-align: center;
+	font-family:courier new ;
+}
+span,legend{
+
+	color:dodgerblue;
+	font-family: courier new;
+	font-size: 18px;
+}
+#warn{
+	color:red;
+}
+body{
+	color:snow;
+	font-family:courier new;
+}
+p{
+	color:orange;
+}
+.prog{
+	width:100%;
+	background-color: #ddd;
+}
+#gBar {
+	width:0%;
+  height: 15px;
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+#eBar {
+	width:0%;
+  height: 15px;
+  background-color: royalblue;
+  text-align: center;
+  color: white;
+}
+#vBar {
+	width:0%;
+  height: 15px;
+  background-color: darkred;
+  text-align: center;
+  color: white;
+}
+#fBar {
+	width:0%;
+  height: 15px;
+  background-color: goldenrod;
+  text-align: center;
+	color: white;}
+#mBar {
+	width:0%;
+  height: 15px;
+  background-color: indianred;
+  text-align: center;
+	color: white;}
